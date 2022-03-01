@@ -1,0 +1,22 @@
+body {
+  background-color: #8d99ae;
+}
+nav {
+  background-color: #2b2d42;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+nav li {
+  list-style-type: none;
+  display: inline;
+}
+nav a {
+  color: #f8f32b;
+}
+
+/* h1 {
+  text-align: center;
+} */
