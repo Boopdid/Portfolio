@@ -62,4 +62,41 @@ nav a {
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 30px;
+  border: solid #f8f32b 10px;
+}
+
+.contactMe {
+  background-color: #093427;
+  display: flex;
+}
+
+.contactMe ul {
+  display: flex;
+  justify-content: end;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.contactMe li {
+  list-style-type: none;
+  display: inline;
+}
+
+.contactMe a {
+  color: #f8f32b;
+  padding: 10px;
+  font-size: 20px;
+}
+
+figure {
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #f8f32b;
+  padding: 10px;
+  border-radius: 15px;
 }
